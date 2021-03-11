@@ -28,6 +28,21 @@ class CombinedAttributesAdder(BaseEstimator, TransformerMixin):
             return np.c_[X, rooms_per_household, population_per_household]
 
 
+def top_k_features(features_importances, k):
+    return np.sort(features_importances.argsort()[-k:])
+
+class SelectTopFeatures(BaseEstimator, TransformerMixin):
+    def __init__(self, features_important, k_features):
+        self.features_important = features_important
+        self.k_features = k_features
+
+    def fit(self, X, y=None):
+        self.features_indeces = top_k_features(self.features_important, self.k_features)
+        return self 
+    def transform(self, X):
+        return X[:, self.features_indeces]
+
+
 
 def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
     os.makedirs(housing_path, exist_ok=True)

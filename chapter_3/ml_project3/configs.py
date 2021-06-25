@@ -19,6 +19,7 @@ def load_data(file_name, data_dir=DATA_DIR):
 
 
 def split_data(features_based, data):
+	
 	split = StratifiedShuffleSplit(n_splits=1, test_size=.2, random_state=42)
 	for train_indeces, test_indeces in split.split(data, data[features_based]):
 		train_data = data.iloc[train_indeces]

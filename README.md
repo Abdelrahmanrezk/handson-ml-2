@@ -13,10 +13,14 @@ All Notebooks have their own explanation for each part of the code.
 Also, we have some of the materials from our study either from the Book, online materials, or courses.
 
 
-## Completed Chapters are:
+## Completed Machine Learning Chapters are:
 
 - The Machine Learning Landscape
 - End-to-End Machine Learning Project
 - Classification
 
 
+
+## Completed Deep Learning Chapters are:
+
+- Introduction to Artificial Neural Network with Keras

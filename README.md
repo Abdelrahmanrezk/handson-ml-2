@@ -18,7 +18,7 @@ Also, we have some of the materials from our study either from the Book, online 
 - The Machine Learning Landscape
 - End-to-End Machine Learning Project
 - Classification
-
+- Training Models
 
 
 ## Completed Deep Learning Chapters are:

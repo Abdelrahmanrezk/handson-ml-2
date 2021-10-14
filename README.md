@@ -19,6 +19,9 @@ Also, we have some of the materials from our study either from the Book, online 
 - End-to-End Machine Learning Project
 - Classification
 - Training Models
+- SVM
+- Decision Tree
+
 
 
 ## Completed Deep Learning Chapters are:

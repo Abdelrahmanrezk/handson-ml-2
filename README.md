@@ -13,7 +13,7 @@ All Notebooks have their own explanation for each part of the code.
 Also, we have some of the materials from our study either from the Book, online materials, or courses.
 
 
-## Completed Machine Learning Chapters are:
+## Completed SuperVised Machine Learning Chapters are 1-7:
 
 - The Machine Learning Landscape
 - End-to-End Machine Learning Project
@@ -21,8 +21,14 @@ Also, we have some of the materials from our study either from the Book, online 
 - Training Models
 - SVM
 - Decision Tree
+- Ensemble Learning and Random Forests
 
+### Arabic Materials 
 
+- Posts (see it first)
+- Summary (see it second)
+- HyperParams (see it third)
+- Then move to notebooks
 
 ## Completed Deep Learning Chapters are:
 

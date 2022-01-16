@@ -12,6 +12,7 @@ All Notebooks have their own explanation for each part of the code.
 
 Also, we have some of the materials from our study either from the Book, online materials, or courses.
 
+# Part 1 SuperVised Machine Learning
 
 ## Completed SuperVised Machine Learning Chapters are 1-7:
 
@@ -20,8 +21,8 @@ Also, we have some of the materials from our study either from the Book, online 
 - Classification
 - Training Models
 - SVM
-- Decision Tree
-- Ensemble Learning and Random Forests
+- Decision Tree (has Posts, Summary, HyperParams Materials)
+- Ensemble Learning and Random Forests (has Posts, Summary, HyperParams Materials)
 
 ### Arabic Materials 
 
@@ -30,6 +31,3 @@ Also, we have some of the materials from our study either from the Book, online 
 - HyperParams (see it third)
 - Then move to notebooks
 
-## Completed Deep Learning Chapters are:
-
-- Introduction to Artificial Neural Network with Keras
